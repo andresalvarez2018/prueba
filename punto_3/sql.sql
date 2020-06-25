@@ -1,18 +1,18 @@
-create database prueba;
-
+create database prueba11;
+use prueba10;
 CREATE TABLE `appx_department` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `department_name` varchar(45) DEFAULT NULL,
   `department_city` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-);
+) ;
 
 CREATE TABLE `appx_educationlevel` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `description` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-);
-
+) ;
+;
 CREATE TABLE `appx_employee` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(45) DEFAULT NULL,
